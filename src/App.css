@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;1,600&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;1,600&family=Courier+Prime:wght@700&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container-all-scales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.scale-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10px;
+  width: 110.895px;
+  height: 367px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.title-feeling-top {
+  margin-top: 22px;
+  font-size: 8px;
+  font-family: 'Courier New';
+  font-weight: 600;
+}
+.title-feeling-bottom {
+  margin-top: 6px;
+  font-size: 8px;
+  font-family: 'Courier New';
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.feeling-description {
+  height: 18px;
+  margin-bottom: 2px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+}
+.feeling-description-down {
+  height: 18px;
+  margin-bottom: 9.8px;
+  margin-top: 2px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.scale-body {
+  margin-top: 20px;
+  margin-bottom: 19px;
+  position: relative;
+  width: 40px;
+  height: 173px;
+}
+
+.scale-body::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: -20px;
+  margin-left: 10px;
+  border-width: 10px 10px 0;
+  border: transparent black;
+  border-bottom: none;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 15px solid var(--color);
+}
+
+.scale-body::after {
+  content: ' ';
+  position: absolute;
+  top: -15px;
+  margin-left: 10px;
+  left: -20px;
+  border: transparent black;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-bottom: 15px solid var(--color);
+}
+
+.benchmark {
+  width: 38px;
+  border: 1px solid azure;
+}
+
+.result-rhombus {
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-bottom-color: azure;
+  left: 15px;
+  margin-bottom: -2px;
+}
+.result-rhombus::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: azure;
+}
+
+svg {
+  width: 34px;
+  height: 34px;
 }

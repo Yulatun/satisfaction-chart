@@ -1,0 +1,51 @@
+import { Emoji } from './icons/emojiIcons';
+
+export const ArrowChart = (props) => {
+  const scaleSize = props.maxValue - props.minValue;
+  let bottomValue = ((props.score - props.minValue) / scaleSize) * 100;
+  let rhombusPosition = `${bottomValue}%`;
+
+  let benchmarkBottomValue =
+    ((props.benchmark - props.minValue) / scaleSize) * 100;
+  let benchmarkBottomValueToPass = `${benchmarkBottomValue}%`;
+
+  let colorToChange = props.color;
+  let opacity = 0.5;
+  let newColor = `rgba(${parseInt(
+    colorToChange.substring(1, 3),
+    16
+  )}, ${parseInt(colorToChange.substring(3, 5), 16)}, ${parseInt(
+    colorToChange.substring(5, 7),
+    16
+  )}, ${opacity})`;
+
+  return (
+    <div
+      className='scale-container'
+      style={{
+        color: props.color,
+        background: `linear-gradient(transparent,${newColor},transparent)`,
+      }}
+    >
+      <div className='title-feeling-top'>feeling </div>
+      <div className='feeling-description'>{props.topText}</div>
+      <Emoji name={props.topEmoji} color={props.color} />
+      <div
+        className='scale-body'
+        style={{ '--color': props.color, background: props.color }}
+      >
+        <div
+          className='result-rhombus'
+          style={{ position: 'absolute', bottom: rhombusPosition }}
+        />
+        <div
+          className='benchmark'
+          style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
+        />
+      </div>
+      <Emoji name={props.bottomEmoji} color={props.color} />
+      <div className='title-feeling-bottom'>feeling </div>
+      <div className='feeling-description-down'> {props.bottomText}</div>
+    </div>
+  );
+};
