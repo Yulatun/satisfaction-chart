@@ -27,8 +27,12 @@ export const ArrowChart = (props) => {
         background: `linear-gradient(transparent,${newColor},transparent)`,
       }}
     >
-      <div className='title-feeling-top'>feeling </div>
-      <div className='feeling-description'>{props.topText}</div>
+      <div className='title-feeling-top' style={{ color: props.color }}>
+        feeling
+      </div>
+      <div className='feeling-description' style={{ color: props.color }}>
+        {props.topText}
+      </div>
       <Emoji name={props.topEmoji} color={props.color} />
       <div
         className='scale-body'
@@ -44,8 +48,12 @@ export const ArrowChart = (props) => {
         />
       </div>
       <Emoji name={props.bottomEmoji} color={props.color} />
-      <div className='title-feeling-bottom'>feeling </div>
-      <div className='feeling-description-down'> {props.bottomText}</div>
+      <div className='title-feeling-bottom' style={{ color: props.color }}>
+        feeling
+      </div>
+      <div className='feeling-description-down' style={{ color: props.color }}>
+        {props.bottomText}
+      </div>
     </div>
   );
 };

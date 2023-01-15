@@ -83,8 +83,9 @@
 }
 
 .benchmark {
-  width: 38px;
-  border: 1px solid azure;
+  width: 100%;
+  height: 1px;
+  background-color:azure
 }
 
 .result-rhombus {
