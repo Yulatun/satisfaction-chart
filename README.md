@@ -13,9 +13,11 @@ const data = [
 ]; 
 window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
 </script><script defer="defer" src="https://yulatun.github.io/satisfaction-chart/static/js/main.b7245047.js"></script>
-```html
+```
+
 ## The default settings
-```html
+
+```
 const defaultSettings = {
   excitement: {
     topText: 'EXCITED',
@@ -88,18 +90,19 @@ const defaultSettings = {
     maxValue: 50,
   },
 };
-```
-"excitement" is the type of scale
-"topText" is the description of the highest value title
-"bottomText" is the description of the lowest value title
-"color" is the RGB value of the color
-"benchmark" is the benchmark value
-"topEmoji" is the emoji associated with the highest value
-"bottomEmoji" is the emoji associated with the lowest value
-"minValue" is the minimum value of the scale
-"maxValue" is the maximum value of the scale
 
-### Change the default settings
+"excitement" is the type of scale;
+"topText" is the description of the highest value title;
+"bottomText" is the description of the lowest value title;
+"color" is the RGB value of the color;
+"benchmark" is the benchmark value;
+"topEmoji" is the emoji associated with the highest value;
+"bottomEmoji" is the emoji associated with the lowest value;
+"minValue" is the minimum value of the scale;
+"maxValue" is the maximum value of the scale.
+```
+
+## Change the default settings
 
 The default settings can be overridden by passing an object with the desired changes as the third parameter to the InitSatisfactionChart function.
 ```
