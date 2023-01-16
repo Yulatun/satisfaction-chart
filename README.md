@@ -1,5 +1,5 @@
 # The initialization code
-
+```html
 <div id="chartID"></div>
 <link href="https://yulatun.github.io/satisfaction-chart/static/css/main.6762e3e0.css" rel="stylesheet" /><script>
 const data = [
@@ -13,9 +13,9 @@ const data = [
 ]; 
 window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
 </script><script defer="defer" src="https://yulatun.github.io/satisfaction-chart/static/js/main.b7245047.js"></script>
-
+```html
 ## The default settings
-
+```html
 const defaultSettings = {
   excitement: {
     topText: 'EXCITED',
@@ -88,7 +88,7 @@ const defaultSettings = {
     maxValue: 50,
   },
 };
-
+```
 "excitement" is the type of scale
 "topText" is the description of the highest value title
 "bottomText" is the description of the lowest value title
@@ -102,7 +102,7 @@ const defaultSettings = {
 ### Change the default settings
 
 The default settings can be overridden by passing an object with the desired changes as the third parameter to the InitSatisfactionChart function.
-
+```
 const settingsOverrides = {
   excitement: {
     benchmark: 4,
@@ -111,4 +111,4 @@ const settingsOverrides = {
 
 InitSatisfactionChart("chartID", data, settingsOverrides) 
 
-
+```
