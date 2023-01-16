@@ -17,3 +17,7 @@ window.InitSatisfactionChart = function(elementId, chartData, settingsOverrides 
     </React.StrictMode>
   );
 }
+
+if (window.SatisfactionChartScriptOnLoad) {
+  window.SatisfactionChartScriptOnLoad();
+}
