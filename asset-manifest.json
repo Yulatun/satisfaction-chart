@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/satisfaction-chart/static/css/main.6762e3e0.css",
-    "main.js": "/satisfaction-chart/static/js/main.b7245047.js",
-    "static/js/787.fe4ec718.chunk.js": "/satisfaction-chart/static/js/787.fe4ec718.chunk.js",
-    "index.html": "/satisfaction-chart/index.html",
-    "main.6762e3e0.css.map": "/satisfaction-chart/static/css/main.6762e3e0.css.map",
-    "main.b7245047.js.map": "/satisfaction-chart/static/js/main.b7245047.js.map",
-    "787.fe4ec718.chunk.js.map": "/satisfaction-chart/static/js/787.fe4ec718.chunk.js.map"
+    "main.css": "/mindlode_graphic/static/css/main.6762e3e0.css",
+    "main.js": "/mindlode_graphic/static/js/main.8eac3641.js",
+    "static/js/787.fe4ec718.chunk.js": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js",
+    "index.html": "/mindlode_graphic/index.html",
+    "main.6762e3e0.css.map": "/mindlode_graphic/static/css/main.6762e3e0.css.map",
+    "main.8eac3641.js.map": "/mindlode_graphic/static/js/main.8eac3641.js.map",
+    "787.fe4ec718.chunk.js.map": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6762e3e0.css",
-    "static/js/main.b7245047.js"
+    "static/js/main.8eac3641.js"
   ]
 }
