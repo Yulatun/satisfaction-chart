@@ -1,18 +1,18 @@
 # The initialization code
 ```html
 <div id="chartID"></div>
-<link href="https://yulatun.github.io/satisfaction-chart/static/css/main.6762e3e0.css" rel="stylesheet" /><script>
-const data = [
-  { type: "excitement", score: 20.125 }, 
-  { type: "fulfillment", score: .625 }, 
-  { type: "selfesteem", score: 6 }, 
-  { type: "progress", score: .5 }, 
-  { type: "reward", score: -5.125 }, 
-  { type: "security", score: .375 },
-  { type: "contentment", score: -2.6 }
-]; 
-window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
-</script><script defer="defer" src="https://yulatun.github.io/satisfaction-chart/static/js/main.b7245047.js"></script>
+<link href="https://spike4848.github.io/mindlode_graphic/static/css/main.6762e3e0.css" rel="stylesheet" /><script>
+  const data = [
+    { type: "excitement", score: 20.125 },
+    { type: "fulfillment", score: .625 },
+    { type: "selfesteem", score: 6 },
+    { type: "progress", score: .5 },
+    { type: "reward", score: -5.125 },
+    { type: "security", score: .375 },
+    { type: "contentment", score: -2.6 }
+  ];
+  window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
+</script><script defer="defer" src="https://spike4848.github.io/mindlode_graphic/static/js/main.8eac3641.js"></script>
 ```
 
 ## The default settings
