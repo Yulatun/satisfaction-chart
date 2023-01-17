@@ -27,33 +27,39 @@ export const ArrowChart = (props) => {
         background: `linear-gradient(transparent,${newColor},transparent)`,
       }}
     >
-      <div className='title-feeling-top' style={{ color: props.color }}>
-        feeling
-      </div>
-      <div className='feeling-description' style={{ color: props.color }}>
-        {props.topText}
-      </div>
-      <Emoji name={props.topEmoji} color={props.color} />
-      <div
-        className='scale-body'
-        style={{ '--color': props.color, background: props.color }}
-      >
+        <div className='title-feeling-top' style={{ color: props.color }}>
+          feeling
+        </div>
+        <div className='feeling-description' style={{ color: props.color }}>
+          {props.topText}
+        </div>
+        <Emoji name={props.topEmoji} color={props.color} />
         <div
-          className='result-rhombus'
-          style={{ position: 'absolute', bottom: rhombusPosition }}
-        />
+          className='scale-body'
+          style={{ '--color': props.color, background: props.color }}
+        >
+          <div
+            className='result-rhombus'
+            style={{ position: 'absolute', bottom: rhombusPosition }}
+          />
+          <div
+            className='benchmark'
+            style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
+          />
+          <div
+            className='midpoint'
+          ></div>
+        </div>
+        <Emoji name={props.bottomEmoji} color={props.color} />
+        <div className='title-feeling-bottom' style={{ color: props.color }}>
+          feeling
+        </div>
         <div
-          className='benchmark'
-          style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
-        />
-      </div>
-      <Emoji name={props.bottomEmoji} color={props.color} />
-      <div className='title-feeling-bottom' style={{ color: props.color }}>
-        feeling
-      </div>
-      <div className='feeling-description-down' style={{ color: props.color }}>
-        {props.bottomText}
-      </div>
+          className='feeling-description-down'
+          style={{ color: props.color }}
+        >
+          {props.bottomText}
+        </div>
     </div>
   );
 };

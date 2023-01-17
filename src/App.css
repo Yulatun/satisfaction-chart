@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   margin-left: 10px;
-  width: 110.895px;
+  width: 110px;
   height: 367px;
   margin-top: 20px;
 }
@@ -49,6 +49,9 @@
 }
 
 .scale-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 19px;
   position: relative;
@@ -85,8 +88,9 @@
 .benchmark {
   width: 100%;
   height: 1px;
-  background-color:azure;
-  margin-bottom: -1px
+  background-color: azure;
+  margin-bottom: -1px;
+  z-index: 20;
 }
 
 .result-rhombus {
@@ -96,6 +100,7 @@
   border-bottom-color: azure;
   left: 15px;
   margin-bottom: -2px;
+  z-index: 30;
 }
 .result-rhombus::after {
   content: '';
@@ -106,6 +111,19 @@
   height: 0;
   border: 4px solid transparent;
   border-top-color: azure;
+}
+
+.midpoint {
+  opacity: 0.5;
+  border: 1px solid transparent;
+  width: 114px; 
+  background-image:  repeating-linear-gradient(76deg, #333333, #333333 7px, transparent 7px, transparent 7px, #333333 7px), repeating-linear-gradient(256deg, #333333, #333333 7px, transparent 7px, transparent 12px, #333333 12px);
+background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
+background-position: 0 0, 0 0, 100% 0, 0 100%;
+background-repeat: no-repeat;
+position: absolute; 
+  bottom: 50%;
+  z-index: 2;
 }
 
 svg {
