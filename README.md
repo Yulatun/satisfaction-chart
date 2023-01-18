@@ -12,7 +12,7 @@
     { type: "contentment", score: -2.6 }
   ];
 
-  window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data, settingsOverrides) });
+  window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
 </script><script defer="defer" src="https://spike4848.github.io/mindlode_graphic/static/js/main.fe8915b1.js"></script>
 ```
 
