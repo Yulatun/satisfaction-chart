@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;1,600&family=Courier+Prime:wght@700&display=swap');
 
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .main-container-all-scales {
   display: flex;
   align-items: center;
@@ -116,12 +122,27 @@
 .midpoint {
   opacity: 0.5;
   border: 1px solid transparent;
-  width: 114px; 
-  background-image:  repeating-linear-gradient(76deg, #333333, #333333 7px, transparent 7px, transparent 7px, #333333 7px), repeating-linear-gradient(256deg, #333333, #333333 7px, transparent 7px, transparent 12px, #333333 12px);
-background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
-background-position: 0 0, 0 0, 100% 0, 0 100%;
-background-repeat: no-repeat;
-position: absolute; 
+  width: 114px;
+  background-image: repeating-linear-gradient(
+      76deg,
+      #333333,
+      #333333 7px,
+      transparent 7px,
+      transparent 7px,
+      #333333 7px
+    ),
+    repeating-linear-gradient(
+      256deg,
+      #333333,
+      #333333 7px,
+      transparent 7px,
+      transparent 12px,
+      #333333 12px
+    );
+  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  position: absolute;
   bottom: 50%;
   z-index: 2;
 }
@@ -129,4 +150,51 @@ position: absolute;
 svg {
   width: 34px;
   height: 34px;
+}
+
+.legend {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  width: 350px;
+  height: 35px;
+  background-color: rgb(105, 180, 45);
+  color: azure;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.legend-rhombus {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-bottom-color: azure;
+  margin-left: 15px;
+  margin-right: 6px;
+  position: relative;
+  bottom: 6px;
+  z-index: 30;
+}
+.legend-rhombus::after {
+  content: '';
+  position: relative;
+  left: -6px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: azure;
+}
+
+.legend-benchmark {
+  width: 38px;
+  margin-left: 18px;
+  margin-right: 8px;
+
+  height: 1px;
+  background-color: azure;
 }
