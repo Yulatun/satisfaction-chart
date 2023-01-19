@@ -24,9 +24,6 @@ function App({ data = [], settings = {} }) {
         })}
       </div>
       <div className='legend' style={{ color: 'azure' }}>
-        {' '}
-        <div className='legend-rhombus' />
-        Your score
         <div className='legend-benchmark' />
         MindLode Benchmark
       </div>
