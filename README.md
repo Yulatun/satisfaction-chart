@@ -1,7 +1,8 @@
 # The initialization code
 ```html
 <div id="chartID"></div>
-<link href="https://spike4848.github.io/mindlode_graphic/static/css/main.e4750207.css" rel="stylesheet" /><script>
+<link href="https://spike4848.github.io/mindlode_graphic/static/css/main.2643aeee.css" rel="stylesheet" />
+<script>
   const data = [
     { type: "excitement", score: 20.125 },
     { type: "fulfillment", score: .625 },
@@ -13,7 +14,8 @@
   ];
 
   window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
-</script><script defer="defer" src="https://spike4848.github.io/mindlode_graphic/static/js/main.fe8915b1.js"></script>
+</script>
+<script defer="defer" src="https://spike4848.github.io/mindlode_graphic/static/js/main.38473f4a.js"></script>
 ```
 
 ## The default settings
