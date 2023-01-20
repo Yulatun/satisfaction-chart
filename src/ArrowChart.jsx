@@ -44,6 +44,7 @@ export const ArrowChart = (props) => {
           style={{
             position: 'absolute',
             bottom: rhombusPosition,
+            color: 'azure'
           }}
         >
           {scoreValue}
