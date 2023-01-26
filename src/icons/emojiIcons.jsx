@@ -24,7 +24,7 @@ export const Emoji = (props) => {
       return <SafeEmoji color={props.color} />;
     case 'threatened':
       return <ThreatenedEmoji color={props.color} />;
-    case 'contended':
+    case 'contented':
       return <ContentedEmoji color={props.color} />;
     case 'despondent':
       return <DespondentEmoji color={props.color} />;
