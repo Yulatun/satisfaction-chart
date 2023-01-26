@@ -28,6 +28,7 @@ export const ArrowChart = (props) => {
         background: `linear-gradient(transparent,${newColor},transparent)`,
       }}
     >
+      <div className='midpoint'></div>
       <div className='title-feeling-top' style={{ color: props.color }}>
         feeling
       </div>
@@ -53,7 +54,6 @@ export const ArrowChart = (props) => {
           className='benchmark'
           style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
         />
-        <div className='midpoint'></div>
       </div>
       <Emoji name={props.bottomEmoji} color={props.color} />
       <div className='title-feeling-bottom' style={{ color: props.color }}>
