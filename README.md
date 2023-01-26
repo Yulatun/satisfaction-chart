@@ -4,13 +4,13 @@
 <link href="https://spike4848.github.io/mindlode_graphic/static/css/main.2643aeee.css" rel="stylesheet" />
 <script>
   const data = [
-    { type: "excitement", score: 20.125 },
-    { type: "fulfillment", score: .625 },
-    { type: "selfesteem", score: 6 },
-    { type: "progress", score: .5 },
-    { type: "reward", score: -5.125 },
-    { type: "security", score: .375 },
-    { type: "contentment", score: -2.6 }
+    { type: "EvB", score: 20.125 },
+    { type: "FvP", score: .625 },
+    { type: "PvE", score: 6 },
+    { type: "VvS", score: .5 },
+    { type: "RvD", score: -5.125 },
+    { type: "SvT", score: .375 },
+    { type: "CvD", score: -2.6 }
   ];
 
   window.SatisfactionChartScriptOnLoad = (function () { InitSatisfactionChart("chartID", data) });
@@ -22,7 +22,7 @@
 
 ```
 const defaultSettings = {
-  excitement: {
+  EvB: {
     topText: 'EXCITED',
     bottomText: 'BORED',
     color: '#b83f3a',
@@ -32,7 +32,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  fulfillment: {
+  FvP: {
     topText: 'FULFILLED',
     bottomText: 'POINTLESS',
     color: '#e69846',
@@ -42,7 +42,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  selfesteem: {
+  PvE: {
     topText: 'PROUD',
     bottomText: 'EMBARASSED',
     color: '#f0ca00',
@@ -52,7 +52,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  progress: {
+  PvS: {
     topText: 'VALUABLE',
     bottomText: 'STUCK',
     color: '#9acea8',
@@ -62,7 +62,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  reward: {
+  RvD: {
     topText: 'REWARDED',
     bottomText: 'DISDAINED',
     color: '#a6c6e4',
@@ -72,7 +72,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  security: {
+  SvT: {
     topText: 'SAFE',
     bottomText: 'THREATENED',
     color: '#975ba1',
@@ -82,7 +82,7 @@ const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  contentment: {
+  CvD: {
     topText: 'CONTENDED',
     bottomText: 'DESPONDENT',
     color: '#bd619a',
@@ -110,7 +110,7 @@ const defaultSettings = {
 The default settings can be overridden by passing an object with the desired changes as the third parameter to the InitSatisfactionChart function.
 ```
 const settingsOverrides = {
-  excitement: {
+  EvB: {
     benchmark: 4,
   },
 };
