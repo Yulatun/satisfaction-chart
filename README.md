@@ -44,7 +44,7 @@ const defaultSettings = {
   },
   PvE: {
     topText: 'PROUD',
-    bottomText: 'EMBARASSED',
+    bottomText: 'EMBARRASSED',
     color: '#f0ca00',
     benchmark: 0.4,
     topEmoji: 'proud',
@@ -83,11 +83,11 @@ const defaultSettings = {
     maxValue: 50,
   },
   CvD: {
-    topText: 'CONTENDED',
+    topText: 'CONTENTED',
     bottomText: 'DESPONDENT',
     color: '#bd619a',
     benchmark: 0.4,
-    topEmoji: 'contended',
+    topEmoji: 'contented',
     bottomEmoji: 'despondent',
     minValue: -50,
     maxValue: 50,
