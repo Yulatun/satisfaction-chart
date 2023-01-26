@@ -1,5 +1,5 @@
 export const defaultSettings = {
-  excitement: {
+  EvB: {
     topText: 'EXCITED',
     bottomText: 'BORED',
     color: '#b83f3a',
@@ -9,7 +9,7 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  fulfillment: {
+  FvP: {
     topText: 'FULFILLED',
     bottomText: 'POINTLESS',
     color: '#e69846',
@@ -19,9 +19,9 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  selfesteem: {
+  PvE: {
     topText: 'PROUD',
-    bottomText: 'EMBARASSED',
+    bottomText: 'EMBARRASSED',
     color: '#f0ca00',
     benchmark: 0.4,
     topEmoji: 'proud',
@@ -29,7 +29,7 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  progress: {
+  VvS: {
     topText: 'VALUABLE',
     bottomText: 'STUCK',
     color: '#9acea8',
@@ -39,7 +39,7 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  reward: {
+  RvD: {
     topText: 'REWARDED',
     bottomText: 'DISDAINED',
     color: '#a6c6e4',
@@ -49,7 +49,7 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  security: {
+  SvT: {
     topText: 'SAFE',
     bottomText: 'THREATENED',
     color: '#975ba1',
@@ -59,12 +59,12 @@ export const defaultSettings = {
     minValue: -50,
     maxValue: 50,
   },
-  contentment: {
-    topText: 'CONTENDED',
+  CvD: {
+    topText: 'CONTENTED',
     bottomText: 'DESPONDENT',
     color: '#bd619a',
     benchmark: 0.4,
-    topEmoji: 'contended',
+    topEmoji: 'contented',
     bottomEmoji: 'despondent',
     minValue: -50,
     maxValue: 50,
