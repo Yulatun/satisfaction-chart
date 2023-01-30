@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mindlode_graphic/static/css/main.2643aeee.css",
-    "main.js": "/mindlode_graphic/static/js/main.38473f4a.js",
+    "main.css": "/mindlode_graphic/static/css/main.405a6124.css",
+    "main.js": "/mindlode_graphic/static/js/main.9d39eafe.js",
     "static/js/787.fe4ec718.chunk.js": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js",
     "index.html": "/mindlode_graphic/index.html",
-    "main.2643aeee.css.map": "/mindlode_graphic/static/css/main.2643aeee.css.map",
-    "main.38473f4a.js.map": "/mindlode_graphic/static/js/main.38473f4a.js.map",
+    "main.405a6124.css.map": "/mindlode_graphic/static/css/main.405a6124.css.map",
+    "main.9d39eafe.js.map": "/mindlode_graphic/static/js/main.9d39eafe.js.map",
     "787.fe4ec718.chunk.js.map": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2643aeee.css",
-    "static/js/main.38473f4a.js"
+    "static/css/main.405a6124.css",
+    "static/js/main.9d39eafe.js"
   ]
 }
