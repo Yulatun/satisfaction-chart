@@ -28,7 +28,6 @@ export const ArrowChart = (props) => {
         background: `linear-gradient(transparent,${newColor},transparent)`,
       }}
     >
-      <div className='midpoint'></div>
       <div className='title-feeling-top' style={{ color: props.color }}>
         feeling
       </div>
@@ -40,18 +39,30 @@ export const ArrowChart = (props) => {
         className='scale-body'
         style={{ '--color': props.color, background: props.color }}
       >
+        <div className='midpoint'></div>
         <div
           className='result-score'
           style={{
             position: 'absolute',
             bottom: rhombusPosition,
-            color: 'azure'
+            color: props.color,
           }}
         >
           {scoreValue}
         </div>
         <div
+          className='result-score-line'
+          style={{
+            position: 'absolute',
+            bottom: rhombusPosition,
+          }}
+        ></div>
+        <div
           className='benchmark'
+          style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
+        />
+        <div
+          className='benchmark2'
           style={{ position: 'absolute', bottom: benchmarkBottomValueToPass }}
         />
       </div>
