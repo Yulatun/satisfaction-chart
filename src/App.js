@@ -24,17 +24,17 @@ function App({ data = [], settings = {} }) {
         })}
       </div>
       <div className='legend' style={{ color: 'black' }}>
-        <div className='legend-container'>
+        <div className='legend-container' style={{ color: 'black' }}>
           <span className='result-score-line-legend'></span>
           <span className='result-score-legend'>X.X</span>
           <span className='description-legend'>Your Personal Score</span>
         </div>
-        <div className='legend-container'>
+        <div className='legend-container' style={{ color: 'black' }}>
           <span className='benchmark-legend'></span>
           <span className='benchmark2-legend'></span>
           <span className='description-legend'> Benchmark </span>
         </div>
-        <div className='legend-container'>
+        <div className='legend-container' style={{ color: 'black' }}>
           <span className='midpoint-legend'></span>
           <span className='description-legend'>Neutral (Zero)</span>
         </div>

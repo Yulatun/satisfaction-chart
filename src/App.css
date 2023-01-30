@@ -111,7 +111,7 @@
 }
 
 .benchmark {
-  width: 100%;
+  width: 40px;
 }
 .benchmark::before,
 .benchmark-legend:before {
@@ -123,6 +123,7 @@
   content: ' ';
   position: absolute;
   top: -4px;
+  left: 11px;
 }
 
 .benchmark::after,
@@ -152,6 +153,7 @@
   content: ' ';
   position: absolute;
   top: -3px;
+  left:8px;
 }
 
 .benchmark2::after,
@@ -165,6 +167,7 @@
   content: ' ';
   position: absolute;
   top: -3px;
+
 }
 
 .midpoint,
@@ -247,6 +250,7 @@ svg {
 }
 .benchmark-legend:before {
   width: 32px;
+
 }
 
 .description-legend {
@@ -256,7 +260,6 @@ svg {
 
 .result-score-legend {
   width: 20px;
-  height: 14px;
   margin-bottom: -8px;
   position: absolute;
   top: -6px;
@@ -264,5 +267,4 @@ svg {
   font-weight: 600;
   color: black;
   text-align: center;
-  font-size: 12px;
 }
