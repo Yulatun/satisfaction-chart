@@ -1,1 +1,21 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="custom chart"/><title>satisfaction chart</title><script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script><script defer="defer" src="/satisfaction-chart/static/js/main.5e446dd9.js"></script><link href="/satisfaction-chart/static/css/main.ef432192.css" rel="stylesheet"></head><body><div id="root"></div><button id="downloadGraphBtn">Download</button><script>const data=[{type:"EvB",score:-2.4},{type:"FvP",score:21.4},{type:"PvE",score:17.9},{type:"VvS",score:21.3},{type:"RvD",score:18.8},{type:"SvT",score:21.5},{type:"CvD",score:23.5}];setTimeout((function(){InitSatisfactionChart("root",data)}),100)</script><script>document.getElementById("downloadGraphBtn").addEventListener("click",(function(){html2canvas(document.getElementById("root")).then((function(n){const t=document.createElement("a");t.href=n.toDataURL("image/png"),t.download="graph.png",t.click()}))}))</script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="custom chart" />
+  <title>satisfaction chart</title>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+  <script defer="defer" src="//satisfaction-chart/static/js/main.7d1e2fdc.js"></script>
+  <link href="/satisfaction-chart/static/css/main.9f93a8e2.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div><button id="downloadGraphBtn">Download</button>
+  <script>const data = [{ "Feeling Spectrum": "Contented vs. Despondent", Benchmark: "10.0", "[Series 1 label]": "20.0", "[Series 2 label]": "30.0", "[Series 3 label]": "40.0", "[Series 4 label]": "-50.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Excited vs. Bored", Benchmark: "5.875", "[Series 1 label]": "8.875", "[Series 2 label]": "10.875", "[Series 3 label]": "4.4375", "[Series 4 label]": "14.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Fulfilled vs. Pointless", Benchmark: "4.875", "[Series 1 label]": "7.875", "[Series 2 label]": "9.875", "[Series 3 label]": "3.9375", "[Series 4 label]": "14.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Proud vs. Embarrassed", Benchmark: "19.625", "[Series 1 label]": "22.625", "[Series 2 label]": "24.625", "[Series 3 label]": "11.3125", "[Series 4 label]": "14.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Rewarded vs. Disdained", Benchmark: "12.625", "[Series 1 label]": "15.625", "[Series 2 label]": "17.625", "[Series 3 label]": "7.8125", "[Series 4 label]": "14.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Safe vs. Threatened", Benchmark: "11.375", "[Series 1 label]": "14.375", "[Series 2 label]": "16.375", "[Series 3 label]": "-3.1875", "[Series 4 label]": "14.375", "[Series 5 label]": "0.375" }, { "Feeling Spectrum": "Valuable vs. Stuck", Benchmark: "14.0", "[Series 1 label]": "17.0", "[Series 2 label]": "19.0", "[Series 3 label]": "-8.5", "[Series 4 label]": "7.0" }]; setTimeout((function () { InitSatisfactionChart("root", data) }), 100)</script>
+  <script>document.getElementById("downloadGraphBtn").addEventListener("click", (function () { html2canvas(document.getElementById("root")).then((function (n) { const t = document.createElement("a"); t.href = n.toDataURL("image/png"), t.download = "graph.png", t.click() })) }))</script>
+</body>
+
+</html>

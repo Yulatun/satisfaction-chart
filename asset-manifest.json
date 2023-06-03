@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/mindlode_graphic/static/css/main.ef432192.css",
-    "main.js": "/mindlode_graphic/static/js/main.5e446dd9.js",
+    "main.css": "/mindlode_graphic/static/css/main.9f93a8e2.css",
+    "main.js": "/mindlode_graphic/static/js/main.7d1e2fdc.js",
     "static/js/787.fe4ec718.chunk.js": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js",
+    "static/media/Brandon_bld.otf": "/mindlode_graphic/static/media/Brandon_bld.645d96f9d734d763912c.otf",
+    "static/media/Brandon_light.otf": "/mindlode_graphic/static/media/Brandon_light.f49b6cce4e0bc103de5f.otf",
+    "static/media/Brandon_reg_it.otf": "/mindlode_graphic/static/media/Brandon_reg_it.85183b81c8ee230d1474.otf",
+    "static/media/Brandon_med_it.otf": "/mindlode_graphic/static/media/Brandon_med_it.d736a7c741a584ebcd82.otf",
+    "static/media/Brandon_light_it.otf": "/mindlode_graphic/static/media/Brandon_light_it.cd9ac4f7193ccad65ba7.otf",
     "index.html": "/mindlode_graphic/index.html",
-    "main.ef432192.css.map": "/mindlode_graphic/static/css/main.ef432192.css.map",
-    "main.5e446dd9.js.map": "/mindlode_graphic/static/js/main.5e446dd9.js.map",
+    "main.9f93a8e2.css.map": "/mindlode_graphic/static/css/main.9f93a8e2.css.map",
+    "main.7d1e2fdc.js.map": "/mindlode_graphic/static/js/main.7d1e2fdc.js.map",
     "787.fe4ec718.chunk.js.map": "/mindlode_graphic/static/js/787.fe4ec718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef432192.css",
-    "static/js/main.5e446dd9.js"
+    "static/css/main.9f93a8e2.css",
+    "static/js/main.7d1e2fdc.js"
   ]
 }
